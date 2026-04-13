@@ -19,6 +19,8 @@ A proposta é explorar conceitos básicos de desenvolvimento front-end enquanto 
 
 ## Acesso online
 
-
+1. Confira o projeto no link abaixo
 ```bash
-git clone https://github.com/seu-usuario/swiper-demo.git
+https://fernanda-borg3s.github.io/BlogBrazil/
+```
+OBS.: PROJETO EM ANDAMENTO
