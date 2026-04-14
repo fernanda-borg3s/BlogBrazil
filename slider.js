@@ -91,3 +91,21 @@ document.addEventListener("DOMContentLoaded", () => {
     }, 300);
   });
 });
+
+
+// -----------------------------------
+  const tooltip = document.getElementById('tooltip');
+  const states = document.querySelectorAll('.state');
+
+  states.forEach(state => {
+    state.addEventListener('mousemove', e => {
+      tooltip.style.left = e.pageX + 10 + 'px';
+      tooltip.style.top = e.pageY + 10 + 'px';
+      tooltip.innerText = state.dataset.name; // pega o nome do estado
+      tooltip.style.display = 'block';
+    });
+    state.addEventListener('mouseleave', () => {
+      tooltip.style.display = 'none';
+    });
+  });
+

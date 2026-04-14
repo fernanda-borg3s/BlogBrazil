@@ -151,6 +151,34 @@ div.about-text button:hover{
     color: var(--primary-color);
     font-weight: bold;
 }
+div.container-map{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+/* ESTILO DO MAPA */
+ .state {
+    cursor: pointer;
+    fill: var(--primary-color);
+}
+
+.state:hover {
+    fill: var(--secondary-color);
+    transform: scaleY(1.01) scaleX(0.99);
+    transition: 0.1s linear;
+  
+}
+div#tooltip {
+    position:absolute;
+    background:var(--terciary-color);
+    color:#fff;
+    padding:5px 8px;
+    border-radius:4px;
+    font-size:18px;
+    display:none;
+}
+
 
 @media (width >= 80rem) {
   nav div {
